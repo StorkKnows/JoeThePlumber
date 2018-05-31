@@ -1,0 +1,87 @@
+/* navbar stuff */
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+	max-height: height 30px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: #FF590F;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #D0D3D4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #288DBE;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* image stuff */
+
+.img-wrap {
+  width: 100px;
+  height: 30%;
+  position: relative;
+  display: inline-block;
+  overflow: show;
+  margin: 0;
+  max-height:100px
+}
+
+/* extras */
+
+.maincontent {
+    padding: 6px;
+    margin: 6px; 
+}
+
+body {
+	
+background-color: 
+}
